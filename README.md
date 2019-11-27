@@ -1,5 +1,6 @@
 # Paper-Reading
 
+Note: The (*) indicates the papers that Chao recommended.
 
 ## Graph Models
  
@@ -13,7 +14,9 @@
 
 ## Neural Networks
 
-### Neural Logic Machines
+### Neural Logic Networks (*)
+
+### Neural Logic Machines (*)
 
 ### Differentiable Learning of Logical Rules for Knowledge Base Reasoning 
 
@@ -21,7 +24,16 @@
 - Inspiration: How to represent the discrate rules to the continues space. 
 - Limitation: The logics are very simple, only could be like A->B, B->C, then A->C.
 
-### Neural Probabilistic Logic Programming in DeepProbLog
+### Neural Probabilistic Logic Programming in DeepProbLog (*)
+
+- Key idea: query the program for the probabilities of given query atom.
+- Framework: 
+    - (1) generates all ground instances of clauses in the program the query depends on
+    - (2) rewrites the ground logic program into a formula in propositional logic
+    - (3) compiles the logic formula into a Sentential Decision Diagram
+    - (4) evaluates the SDD bottom-up to calculate the success probability of the given query, starting with the probability labels of the leaves as given by the program and performing addition in every or-node and multiplication in every and-node.
+ 
+
 
 
 
