@@ -9,11 +9,11 @@
    - (1) The embedding of Q/A.
    - (2) Search the paths between Q and A, and then generate paths to build graphs.  
 
-## Nerual Networks
+### Can Graph Neural Networks Help Logic Reasoning?
+
+## Neural Networks
 
 ### Neural Logic Machines
-
-### Can Graph Neural Networks Help Logic Reasoning?
 
 ### Differentiable Learning of Logical Rules for Knowledge Base Reasoning 
 
@@ -21,7 +21,7 @@
 - Inspiration: How to represent the discrate rules to the continues space. 
 - Limitation: The logics are very simple, only could be like A->B, B->C, then A->C.
 
-## Neural Probabilistic Logic Programming in DeepProbLog
+### Neural Probabilistic Logic Programming in DeepProbLog
 
 
 
