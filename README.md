@@ -1,11 +1,27 @@
 # Paper-Reading
 
 
-## Neural Logic Machines
+## Graph Models
+ 
+### KagNet: Knowledge-Aware Graph Networks for Commonsense Reasoning
+- Key idea: utilizes external, structured knowledge graphs to perform explainable inferences.
+- Framework: Given the question-answer pairs, they use two kinds of inputs to the GCN-LSTM-HPA network.
+   - (1) The embedding of Q/A.
+   - (2) Search the paths between Q and A, and then generate paths to build graphs.  
 
-## Can Graph Neural Networks Help Logic Reasoning?
+## Nerual Networks
 
-## Differentiable Learning of Logical Rules for Knowledge Base Reasoning 
+### Neural Logic Machines
 
-This one was presented by Wendi and Yinghao during Chao's class.
+### Can Graph Neural Networks Help Logic Reasoning?
+
+### Differentiable Learning of Logical Rules for Knowledge Base Reasoning 
+
+- Key idea: Use the given relations in the knowledge base to generate new relations. Use a matrix to represent the relations between entities to make it trainable.
+- Inspiration: How to represent the discrate rules to the continues space. 
+- Limitation: The logics are very simple, only could be like A->B, B->C, then A->C.
+
+## Neural Probabilistic Logic Programming in DeepProbLog
+
+
 
