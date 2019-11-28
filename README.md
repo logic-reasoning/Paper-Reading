@@ -15,7 +15,8 @@ Note: The (*) indicates the papers that Chao recommended.
 ## Neural Networks
 
 ### Neural Logic Networks (*)
-
+- the computational graph is built dynamically according to the input logical expression.
+- logic expressions are represented as vectors, and each basic logic operation is learned as a neural module during the training process. 
 ### Neural Logic Machines (*)
 
 ### Differentiable Learning of Logical Rules for Knowledge Base Reasoning 
