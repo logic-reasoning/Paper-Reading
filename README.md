@@ -33,7 +33,7 @@ Note: The (*) indicates the papers that Chao recommended.
     - (3) compiles the logic formula into a Sentential Decision Diagram
     - (4) evaluates the SDD bottom-up to calculate the success probability of the given query, starting with the probability labels of the leaves as given by the program and performing addition in every or-node and multiplication in every and-node.
  
-### Neural Logic Machines
+### Neural Logic Machines (*)
  - build the computational graph according to input logical expressions, dynamically construct the architecture
     ![avatar](figures/ipeline.jpg)
      - variables in the logic expressions are represented as vectors of the same dimension
