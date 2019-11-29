@@ -18,8 +18,6 @@ Note: The (*) indicates the papers that Chao recommended.
 - the computational graph is built dynamically according to the input logical expression.
 - logic expressions are represented as vectors, and each basic logic operation is learned as a neural module during the training process. 
 
-### Neural Logic Machines (*)
-
 ### Differentiable Learning of Logical Rules for Knowledge Base Reasoning 
 
 - Key idea: Use the given relations in the knowledge base to generate new relations. Use a matrix to represent the relations between entities to make it trainable.
@@ -35,7 +33,7 @@ Note: The (*) indicates the papers that Chao recommended.
     - (3) compiles the logic formula into a Sentential Decision Diagram
     - (4) evaluates the SDD bottom-up to calculate the success probability of the given query, starting with the probability labels of the leaves as given by the program and performing addition in every or-node and multiplication in every and-node.
  
-## Neural Logic Machines
+### Neural Logic Machines
  - build the computational graph according to input logical expressions, dynamically construct the architecture
     ![avatar](figures/ipeline.jpg)
      - variables in the logic expressions are represented as vectors of the same dimension
@@ -51,7 +49,7 @@ Note: The (*) indicates the papers that Chao recommended.
          - RΙ: length regularizer, constrain the vector length
          - RΘ: l2 regularizer, prevent overfitting
 
-## Learning to Annotate: Modularizing Data Augmentation for Text Classifiers with Natural Language Explanations
+### Learning to Annotate: Modularizing Data Augmentation for Text Classifiers with Natural Language Explanations
  - augment training data for text classification using NL explanations
  - problem setting: we want to learn X->Y, only a subset x with labels y and explanations e (how the decision is made)
  ![avatar](figures/NPL_example.jpg)
@@ -70,12 +68,7 @@ Note: The (*) indicates the papers that Chao recommended.
    - use labeled dataset and unlabeled dataset to train the classifier
       - neural module network and classifier are jointly trained
 
-
-## Differentiable Learning of Logical Rules for Knowledge Base Reasoning 
-
-This one was presented by Wendi and Yinghao during Chao's class.
-
-## Probabilistic Logic Neural Networks for Reasoning
+### Probabilistic Logic Neural Networks for Reasoning
     - Authors: Meng Qu, Jian Tang
       [[https://arxiv.org/pdf/1906.08495.pdf][Link]]
     - Goal: 
@@ -91,7 +84,7 @@ This one was presented by Wendi and Yinghao during Chao's class.
 
 
 
-## Can Neural Networks Understand Logical Entailment? [ICLR 2018]
+### Can Neural Networks Understand Logical Entailment? [ICLR 2018]
     Authors from Deepmind.
     [[https://openreview.net/pdf?id=SkZxCk-0Z][Link]]
     - Quick summary:
@@ -105,7 +98,7 @@ This one was presented by Wendi and Yinghao during Chao's class.
       Interestingly, their proposed method assumingly outperforms TreeRNN (recusrive RNN).
  
 
- ## TensorLog: A Differentiable Deductive Database [2016]
+ ### TensorLog: A Differentiable Deductive Database [2016]
     - Author: William W. Cohen
     [[https://arxiv.org/pdf/1605.06523.pdf][Link]]
     - Goal: a differentiable reasoning system based on knowledge base.
